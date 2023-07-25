@@ -1,0 +1,178 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+.nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    text-align: left;
+    padding: 181px 70px;
+    background-color: #9800da;
+}
+
+.navbar {
+    padding: 30px 70px;
+    background-color: #EA46FF;
+    text-align: center;
+    
+}
+
+
+
+.navbar-icon {
+    flex-grow: 1;
+    color: #5F00E0;
+}
+
+.navbar-page{
+    flex-grow: 2;
+}
+
+.navbar-sosmed {
+    flex-grow: 1;
+    font-size: 20px;
+    text-align: center;
+    /* justify-content:space-between;
+    display: flex; */
+}
+
+.navbar-page li,
+.navbar-sosmed li {
+    display: inline;
+}
+
+.navbar-page ul {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.navbar-page li {
+    margin: 0px 20px;
+}
+
+.navbar-page a {
+    text-decoration: none;
+    color: #5F00E0;
+}
+
+.fa-brands {
+    margin-right: 5px;
+    color: #5F00E0;
+}
+
+.banner {
+    line-height: 350%;
+    background-image: url("/public/assets/image/bg.jpg");
+    width: 100%;
+}
+
+.name {
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 1000;
+
+    color: #fa77c7;
+}
+
+.description {
+    opacity: 1;
+    font-size: 15px;
+    line-height: 250%;
+
+    color: #ffffff8d;
+    font-style: italic;
+
+
+}
+
+
+footer{
+    background-color: black;
+}
+
+
+@media  (max-width : 500px) {
+    .banner{
+        height: 100%;
+        width: 100%;
+    }
+        .name{
+            font-size: 20px;
+            font-family: 'VT323', monospace;
+
+        }
+        .description{
+        font-size: 10px;
+        text-align: center;
+        justify-content:space-between;
+        display: flex;
+    
+    }
+
+
+    .navbar-sosmed{
+        font-size: 20px;
+        text-align: center;
+        justify-content:space-between;
+        display: flex;
+    }
+    body{
+        width: 100%;
+        height: 83vh;
+        background-color:skyblue;
+    }
+
+    }
+
+    @media (max-width : 1024px) {
+        .banner {
+            background-color: #9800da;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .name {
+            font-size: 70px;
+            text-align: center; /* Menampilkan teks di tengah secara horizontal */
+            display: flex; /* Menampilkan teks di tengah secara horizontal */
+            justify-content: center; /* Menampilkan teks di tengah secara horizontal */
+            font-family: 'VT323', monospace;
+
+        }
+        
+        .description {
+            font-size: 20px;
+            text-align: center;
+            justify-content: space-between;
+            display: flex;
+        }
+    
+        .navbar-sosmed {
+            font-size: 20px;
+            text-align: center;
+            /* justify-content: space-between;
+            display: flex; */
+        }
+    
+        body {
+            width: 100%;
+            height:86vh;
+        }
+    }
+    
